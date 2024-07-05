@@ -5,7 +5,7 @@ const app = express();
 
 app.get("/", (req, res) => {
 //   res.send("這是首頁");
-    res,redirect("/singer/3.html");//重新導向
+    res.redirect("/singer/3.html");//重新導向
 });
 
 app.get("/singer/:id.html", (req, res) => {
